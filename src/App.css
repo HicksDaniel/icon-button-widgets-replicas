@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(./assets/cloth_texture.png);
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  width: 640px;
+  height: 640px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.button-container {
+  display: flex;
+  background-color: #3d3d3d;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0px 160px 160px 0px;
+  height: 328px;
+  box-shadow: -1px 1px 3px 5px black;
+  width: 580px;
+}
+
+.phone-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  width: 80px;
+  transform: translatex(0px);
+  background-image: radial-gradient(
+    circle at -50% 40%,
+    rgba(75, 75, 75, 1),
+    rgba(61, 61, 61, 1),
+    rgba(32, 32, 32, 1)
+  );
+  box-shadow: 1px 1px 2px #000000, -1px -1px 3px #000000;
+  border-radius: 100px;
+}
+
+.volume-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  transform: translatex(8px);
+  width: 115px;
+  height: 265px;
+}
+.vup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+
+  background-color: #3d3d3d;
+  background-image: radial-gradient(
+    circle at 40% 40%,
+    rgba(75, 75, 75, 1),
+    rgba(61, 61, 61, 1),
+    rgba(32, 32, 32, 1)
+  );
+  box-shadow: 1px 1px 2px #000000, -1px -1px 3px #000000;
+  border-radius: 100%;
+}
+.vdn-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border: 1px solid black;
+  background-image: radial-gradient(
+    farthest-corner at 30% 0%,
+    rgba(42, 42, 42, 1),
+    rgba(61, 61, 61, 1),
+    rgba(75, 75, 75, 1)
+  );
+  box-shadow: 1px 1px 2px #000000, -1px -1px 3px #000000;
+  border-radius: 100%;
+}
+.mic-button {
+  display: inline-flex;
+  width: 260px;
+  height: 260px;
+  border-radius: 200%;
+  justify-content: center;
+  align-items: center;
+
+  background-image: radial-gradient(
+    farthest-corner at 30% 10%,
+    rgba(42, 42, 42, 1),
+    rgba(61, 61, 61, 1),
+    rgba(75, 75, 75, 1)
+  );
+  box-shadow: 1px 1px 2px #000000, -1px -1px 4px #000000;
+  transform: translatex(0px);
+}
