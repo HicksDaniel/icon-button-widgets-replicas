@@ -1,17 +1,13 @@
 import { useState } from "react";
-import SpeakerButton from "./replicas/SpeakerButton";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import FastForwardIcon from "@mui/icons-material/FastForward";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
-import Slider from "@mui/material/Slider";
 import { CustomSlider } from "./styled";
 import VolumeDown from "@mui/icons-material/VolumeDown";
 import VolumeUp from "@mui/icons-material/VolumeUp";
 
-import "./App.css";
-
-function App() {
+export default function MediaPlayer() {
   const [value, setValue] = useState(30);
 
   const handleChange = (event, newValue) => {
@@ -99,5 +95,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
