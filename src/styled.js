@@ -9,7 +9,7 @@ export const CustomSlider = styled(Slider)`
     background-color: transparent;
     transform: translate(-10px, -px);
 
-    background-image: url("src/assets/reference images/record.png");
+    background-image: url("src/assets/reference-images/record.png");
     background-size: cover;
   }
   & input {
@@ -28,7 +28,6 @@ export const CustomSlider = styled(Slider)`
   }
   & .MuiSlider-rail {
     height: 16px;
-
     opacity: 100%;
     width: 110%;
 
