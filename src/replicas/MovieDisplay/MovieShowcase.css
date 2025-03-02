@@ -1,0 +1,22 @@
+:root {
+  .tablet-showcase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 1084px;
+    height: 828px;
+    background-color: black;
+    box-shadow: -2px 0px 0.5px #a0a0a0, 0px -2px 1px #484848,
+      0px 2px 1px #484848, 1px 1px 35px #000000, 3px 0px 0.5px #393939;
+  }
+
+  .background-container {
+    display: flex;
+    width: 1024px;
+    height: 768px;
+    border-radius: 20px;
+    background-size: cover;
+    border: 2px solid rgba(22, 22, 22, 0.9);
+  }
+}

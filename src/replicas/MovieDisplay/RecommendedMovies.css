@@ -1,0 +1,11 @@
+.recommended-movies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  border-radius: 5px 15px 5px 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
