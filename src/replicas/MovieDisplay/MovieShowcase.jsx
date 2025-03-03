@@ -8,7 +8,6 @@ export default function MovieShowcase() {
   const [currentMovie, setCurrentMovie] = useState(MovieList[0]);
 
   const handleClick = (movie) => {
-    console.log(currentMovie.image);
     setCurrentMovie(...movie);
   };
 
@@ -18,7 +17,7 @@ export default function MovieShowcase() {
         <div
           className="background-container"
           style={{
-            backgroundImage: `url(${currentMovie.image})`,
+            backgroundImage: ` url(${currentMovie.image})`,
           }}
         >
           <MovieSideNav />

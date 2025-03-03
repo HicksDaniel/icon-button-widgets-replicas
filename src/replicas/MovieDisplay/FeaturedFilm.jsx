@@ -92,10 +92,10 @@ export default function FeaturedFilm({ currentMovie, onClick }) {
           className="movie-title"
           style={{
             fontSize:
-              title.length > 16 ? "45px" : title.length > 10 ? "80px" : "100px",
+              title.length > 18 ? "40px" : title.length > 10 ? "70px" : "80px",
           }}
         >
-          {title}
+          {title.toUpperCase()}
         </div>
         <div className="movie-subtitle">{subtitle}</div>
         <div className="movie-buttons">

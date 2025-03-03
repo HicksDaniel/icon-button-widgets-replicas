@@ -1,9 +1,18 @@
-.recommended-movies-container {
+.movielist-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  flex-flow: row nowrap;
-  justify-content: center;
+  gap: 8px;
+
+  .selected-marker {
+    width: 65px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #ffffff80;
+  }
+}
+
+.recommended-movie-icon {
   height: 90px;
   width: 90px;
   border-radius: 5px 15px 5px 15px;
