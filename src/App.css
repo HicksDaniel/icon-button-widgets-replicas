@@ -25,6 +25,9 @@
   height: 765px;
   width: 360px;
   border-radius: 50px;
+  clear: both;
+  background: rgb(224, 235, 255);
+  border: 12px solid black;
   transform: matrix3d(
     0.55,
     0.2,
@@ -43,16 +46,13 @@
     0,
     0.7
   );
-  clear: both;
-  background: rgb(224, 235, 255);
-  border: 12px solid black;
   outline: 1px solid rgb(199, 199, 199);
   box-shadow: 1px 3px 0px 0px rgba(199, 199, 199, 1),
     0px 8px 1px -5px rgba(255, 255, 255, 1),
-    5px 11px 1px 2px rgba(50, 50, 50, 1), 14px 10px 0px 0px rgba(50, 50, 50, 1),
-    125px 16px 0px 1px rgba(0, 0, 0, 1), 14px 14px 0px 1px rgba(0, 0, 0, 1),
-    15px 8px 0px 1px rgba(50, 50, 50, 1), 50px 50px 10px 2px rgb(15, 15, 15);
-  transition: 1.5s ease;
+    10px 11px 1px 2px rgba(50, 50, 50, 1), 14px 10px 0px 0px rgba(50, 50, 50, 1),
+    12px 13px 0px 0px rgba(0, 0, 0, 1), 13px 11px 0px 1px rgba(0, 0, 0, 1),
+    15px 8px 0px 1px rgba(50, 50, 50, 1), 60px 0px 15px 2px rgb(15, 15, 15);
+  transition: 1.25s;
 }
 
 .phone-shadow {
@@ -63,16 +63,16 @@
   background-color: grey;
 }
 .phone:active {
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, -0.00015, 0, 0, 1, 0, 0, 0, 0, 1);
   clear: both;
   background: rgb(224, 235, 255);
   border: 12px solid black;
   outline: 1px solid rgb(199, 199, 199);
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, -0.00015, 0, 0, 1, 0, 0, 0, 0, 1);
   box-shadow: 0px 1px 0px 1px rgba(199, 199, 199, 1),
     0px 8px 1px -5px rgba(255, 255, 255, 1), 0px 0px 0px 0px rgba(50, 50, 50, 1),
     0px 0px 0px 0px rgba(50, 50, 50, 1), 0px 0px 0px 0px rgba(0, 0, 0, 1),
-    0px 15px 0px 1px rgba(50, 50, 50, 1), 50px 50px 10px 2px rgb(15, 15, 15);
-  transition: transform 1.5s;
+    0px 0px 0px 0px rgba(0, 0, 0, 1), 0px 0px 0px 0px rgba(0, 0, 0, 1),
+    0px 10px 0px 1px rgba(50, 50, 50, 1), 50px 20px 15px 2px rgb(15, 15, 15);
 }
 
 .phone-contents {
